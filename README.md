@@ -18,11 +18,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 ## 4. Clone this repo
 ```sh
-git clone https://github.com/litaxc/ss-server-setup.git
+git clone https://github.com/litaxc/shadowsocks-server-setup.git
 ```
 ## 5. Bring up the SS server
 ```sh
-cd ss-server-setup
+cd shadowsocks-server-setup
 docker-compose up -d
 ```
 ## 6. Verify the server is up, listening on port 28388
